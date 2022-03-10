@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table ,th, tr, td{
+    border:solid 2px blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    font-size: 150%;
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: blue;
+}
+th{
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    border-radius: 15px;
+}
+tr ,td{
+    border-radius: 15px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+}
