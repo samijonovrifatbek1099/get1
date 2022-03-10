@@ -1,0 +1,88 @@
+.bir{
+    background-color: white;
+    margin-left: 15%;
+    padding: 10px;
+    color: blue;
+    display: inline-block;
+}
+.bir1{
+    margin-left: 20%;
+    background-color: white;
+    padding: 10px;
+    color: blue;
+    display: inline-block;
+}
+.bir h1{
+    font-size: 200%;
+}
+.umu{
+    background-color:white;
+    display: inline;
+}
+.bi{
+    display: flex;
+    text-align: center;
+}
+.bi table{
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    margin-left: 9%;
+    border-radius: 20px;
+}
+table tr,td{
+    
+    border-collapse: collapse;
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+tr{
+    margin: 20px;
+}
+th{
+    font-style:unset;
+    border: solid red 2px;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: initial;
+    font-size: 20px;
+    border-radius: 10px;
+}
+body,h3,h2,h1{
+    padding: 0%;
+    margin: 0%;
+}
+.vaq{
+    text-align: left;
+    margin-left: 9%;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 81%;
+    display:inline-block;
+}
+.qaz{
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 5px;
+}
+.qaz h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.qaz p{
+    margin-bottom: 7px;
+    font-weight: bold;
+    margin-left: 30px;
+    line-height: 150%;
+}
