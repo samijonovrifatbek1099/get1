@@ -29,6 +29,7 @@ div a:hover{
     text-decoration: solid 1px magenta;
     color: blue;
     background-color: white;
+    box-shadow: 2px 4px red;
 }
 div hr{
     width: 2px;
