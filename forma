@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATSIYA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div id="bir">
+            <img src="circle-user-solid.svg">
+        </div>
+        <div id="ikki">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label style="font-weight: bold;font-size: 110%;" for="ism">Ismingizni kiriting:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="ism">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="font-weight: bold;font-size: 110%;" for="familya">Familyangizni kiriting:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="familya">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="font-weight: bold;font-size: 110%;" for="email">Elektron pochta manzilingiz:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" placeholder="masalan@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="font-weight: bold;font-size: 110%;" for="tel">Telefon nomeringizni kiriting:</label><br>
+                        </td>
+                        <td>
+                            <input type="tel" id="tel" placeholder="+998908211099"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label style="border-bottom:solid 1px white;font-weight: bold;" for="jins">Jinsingiz:</label>
+                        </td>
+                        <td>
+                            <br><label style="margin-right: -50%;" for="jins">Erkak</label>
+                            <input style="margin-left: -50%;" type="radio" id="jins" name="jins"><br>
+                            <label  style="margin-right: -50%;" for="jins1">Ayol<span style="color: blue;">2</span></label>
+                            <input style="margin-left: -50%;" type="radio" id="jins1" name="jins"><br><br>
+                        </td>
+                    </tr>
+                   <tr style="margin-left: 50%;">
+                       <td>
+                           <label style="border-bottom:solid 1px white;font-weight: bold;" for="">Kasbingiz</label><br><br>
+                           <label class="chek" for="O">O'qituvchi</label>
+                           <input type="checkbox" id="O"><br>
+                           <label class="chek" for="D">Dasturchi</label>
+                           <input type="checkbox" id="D"><br>
+                           <label class="chek" for="sh">shifokor</label>
+                           <input type="checkbox" id="sh"><br>
+                           <label class="chek" for="Q">Quruvchi</label>
+                           <input type="checkbox" id="Q"><br>
+                           <label class="chek" for="A">Arxitektor</label>
+                           <input type="checkbox" id="A"><br>
+                           <label class="chek" for="N">Naqqosh</label>
+                           <input type="checkbox" id="N"><br>
+                           <label class="chek" for="d">Duradgor</label>
+                           <input type="checkbox" id="d"><br>
+                           <label class="chek" for="K">Kosib</label>
+                           <input type="checkbox" id="K"><br>
+                           <label class="chek" for="n">Novvoy</label>
+                           <input type="checkbox" id="n"><br>
+                           <label class="chek" for="ku">Kulolchi</label>
+                           <input type="checkbox" id="ku"><br><br>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td><label style="border-bottom:solid 1px white;font-weight: bold;" for="">Manzilingiz:</label>
+                            <select name="" id="">
+                                <option value="">Andijon</option>
+                                <option value="">Buxoro</option>
+                                <option value="">Farg'ona</option>
+                                <option value="">Jizzax</option>
+                                <option value="">Namangan</option>
+                                <option value="">Navoiy</option>
+                                <option value="">Qashqadaryo</option>
+                                <option value="">Samarqand</option>
+                                <option value="">Sirdaryo</option>
+                                <option value="">Surxondaryo</option>
+                                <option value="">Xorazm</option>
+                                <option value="">Toshkent shahri</option>
+                                <option value="">Toshkent viloyati</option>
+                                <option value="">Qoraqalpog'iston</option>
+                            </select><br><br>
+                        </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <label for="">Rasmingizni joylang</label>
+                           <input style="margin-top: -8%;" type="image" width="100px" height="90px" src="circle-user-solid.svg">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                            <label for="pa">Parol kiriting:</label>
+                            <input type="password" id="pa">
+                       </td>
+                   </tr>
+                   <tr>
+                    <td>
+                         <label for="pa">Parolni qayta kiriting:</label>
+                         <input type="password" id="pa">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>SAQLASH</button>
+                    </td>
+                </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
