@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-size: 100%;
+}
+.form{
+    background-color: blue;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.form #bir{
+    
+    box-sizing: border-box;
+    padding: 5%;
+    margin-top: -14%;
+    text-align: center;
+    font-size: 120%;
+    border: solid 2px black;
+    margin-left: 14%;
+    border-radius: 50%;
+    height: 50%;
+    width: 70%;
+    background-color:rgb(50, 50, 245);
+}
+.form #ikki{
+    margin-top: 5%;
+    color: white;
+    line-height: 180%;
+    font-size: 150%;
+}
+#ikki label{
+    float: left;
+    margin-right: 15px;
+}
+#ikki input{
+    font-size: 120%;
+}
+.chek{
+    float: left;
+    margin: 0%;
+    width: 70px;
+    color: white;
+    font-size: 100%;
+}
+button{
+    width: 120px;
+    height: 40px;
+    color: blue;
+    font-weight: bold;
+    border: solid 1px black;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
